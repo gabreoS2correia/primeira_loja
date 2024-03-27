@@ -1,0 +1,110 @@
+
+*{
+    margin: 0px;
+}
+
+nav{
+
+    border: 2px;
+
+}
+
+nav li{
+
+    display: inline;
+
+    margin-left: 50px;
+
+}
+
+nav li a{
+
+    border: 2px goldenrod;
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+nav li a:hover{
+
+    background-color: black;
+
+    color: beige;
+
+}
+
+body{
+
+    display: grid;
+
+    grid-template-areas: 
+
+    "cab cab cab"
+
+    "asd pcp pcp"
+
+    "ftt ftt ftt" ;
+
+    grid-template-columns: 1fr 8fr 1fr ;
+
+    grid-template-rows: auto auto auto;
+
+}
+
+header{
+
+    grid-area: cab;
+
+    background-color: rgb(186, 124, 245);
+
+    display: flex;
+
+    height: 300px;
+
+    padding-left: 20px;
+
+    padding-top: 20px;
+
+}
+
+header img{
+
+    width: 100px;
+
+    height: 100px;
+
+
+}
+
+aside{
+
+    grid-area: asd;
+
+    background-color: rgb(241, 196, 82);
+
+    height: 100px; 
+}
+
+main{
+
+    grid-area: pcp;
+
+    background-color: rgb(126, 253, 211);
+
+    position: relative ;
+
+    width: 5000px;
+
+    height: 500px;
+
+}
+
+footer{
+
+    grid-area: ftt;
+
+    background-color: crimson;
+
+}
