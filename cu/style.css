@@ -30,6 +30,7 @@ nav{
 
     border: 2px;
 
+    "pcp"
 }
 
 nav li{
@@ -231,6 +232,8 @@ footer{
     position: absolute;
 
     width: 40px;
+
+    width: 200px;
 
     height: 40px;
 
