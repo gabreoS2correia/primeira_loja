@@ -78,9 +78,13 @@ nav li a:hover{
 
     border: solid;
 
+    border-radius: 10px;
+
+    background-color: #F7DFB9;
+
     height: 300px;
 
-    width: 350px;
+    width: 300px;
 
     display: flex;
 
@@ -144,6 +148,8 @@ header{
 
     height: 100px;
 
+    border-radius: 10px;
+
 }
 
 .icon{
@@ -204,7 +210,19 @@ main{
     
     position: relative ;
 
+}
 
+button{
+
+    width: 100px;
+
+    background-color: black;
+
+    border-radius: 10px;
+
+    border: black solid 2px;
+
+    color: white;
 
 }
 
