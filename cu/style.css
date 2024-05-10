@@ -224,6 +224,18 @@ button{
 
     color: white;
 
+    cursor: pointer;
+
+    transition: 5ms;
+
+}
+
+button:hover{
+
+    background-color: rgb(255, 255, 255);
+
+    color: black;
+
 }
 
 footer{
@@ -271,3 +283,4 @@ footer{
     top: 230px;  
 
 }
+
