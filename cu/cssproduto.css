@@ -1,0 +1,34 @@
+*{
+
+    margin: 0;
+
+}
+
+@media screen and (max-width: 400px){
+
+    body{
+
+        margin: 0;
+
+        display: grid;
+
+        grid-template-areas:
+
+        "cab"
+        "asd"
+        "pcp"
+        "ftt";
+
+        grid-template-columns: auto;
+
+        grid-template-rows: auto auto auto auto;
+}
+
+}
+
+header{
+
+
+    
+}
+
