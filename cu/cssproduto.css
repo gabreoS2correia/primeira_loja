@@ -23,6 +23,8 @@
         grid-template-rows: auto auto auto;
 }
 
+/* estruturas semanticas e afins*/
+
 }
 
 header{
@@ -69,6 +71,33 @@ footer{
 
 }
 
+.tamanho{
+    border: 2px #F7DFB9;
+
+    border-radius: 5px;
+
+    margin: 5px;
+
+    height: 30px;
+
+    width: 30px;
+    
+}
+
+.tamanho:hover{
+
+    background-color: #F7DFB9;
+
+    color: white;
+
+    transition: 0.1s;
+
+}
+
+/*fim estruturas semanticas*/
+
+/*imagens*/
+
 .ramona{
 
     width: 100px;
@@ -81,9 +110,79 @@ footer{
 
 .tenis{
 
-    
+    position: relative;
+
+    width: 700px;
+
+    height: auto;
+
+    padding-left: 90px;
     
 
 }
 
+/*fim imagens*/
 
+/*coisas escrita*/
+
+.nomedotroço{
+
+    font-family: 'Courier New', Courier, monospace;
+
+    position: absolute;
+
+    padding-top: 40px;
+
+    top: 0;
+
+    right: 70px;
+
+    color: rgb(0, 0, 0);
+
+}
+
+.valor{
+
+    font-family:'Courier New', Courier, monospace;
+
+    position: absolute;
+
+    padding-top: 100px;
+
+    top: 0;
+
+    right: 70px;
+
+    color: black;
+
+}
+
+.parcela{
+
+    font-family:'Courier New', Courier, monospace;
+
+    position: absolute;
+
+    padding-top: 160px;
+
+    top: 0;
+
+    right: 70px;
+
+    color:  #ff3333;
+
+}
+
+.cor{
+
+    font-family:'Courier New', Courier, monospace;
+
+    position: absolute;
+
+    padding-top: 210px;
+
+    top: 0;
+
+    right: 70px;
+
+}
