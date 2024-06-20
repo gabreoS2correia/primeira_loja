@@ -73,9 +73,11 @@ nav li a:hover{
 
 .viadinho{
 
+    font-family: 'Courier New', Courier, monospace;
+
     border: solid;
 
-    border-radius: 10px;
+    border-radius: 20px;
 
     background-color: #ffffff;
 
@@ -103,6 +105,12 @@ nav li a:hover{
     width: 150px;
 
     display: flex;
+
+}
+
+.viadinho h2{
+
+    margin-bottom: 10px;
 
 }
 
@@ -212,26 +220,32 @@ main{
 
 button{
 
+    font-family: 'Courier New', Courier, monospace;
+
     width: 100px;
+
+    height: 30px;
 
     background-color: black;
 
-    border-radius: 10px;
+    border-radius: 50px;
 
     border: black solid 2px;
 
-    color: white;
+    color:  #F7DFB9;
 
     cursor: pointer;
 
     transition: 5ms;
 
+    margin-top: 20px;
+
 }
 
 button:hover{
 
-    background-color: rgb(255, 255, 255);
-
+    background-color:  #F7DFB9;
+    
     color: black;
 
 }
